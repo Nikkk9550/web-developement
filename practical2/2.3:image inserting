@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Images in HTML</title>
+</head>
+<body>
+
+<h2>Displaying Images in HTML</h2>
+
+<!-- Syntax for displaying an image -->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s" alt="Description of the image" width="300" height="200">
+
+</body>
+</html>
