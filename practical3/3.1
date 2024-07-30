@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basic Form Example</title>
+</head>
+<body>
+
+<h2>Basic Form Example</h2>
+
+<form action="/submit-your-form-handler" method="POST">
+  
+  <!-- Text Field -->
+  <label for="fullname">Full Name:</label><br>
+  <input type="text" id="fullname" name="fullname" required><br><br>
+
+  <!-- Radio Buttons -->
+  <label>Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+  <!-- Checkboxes -->
+  <label>Interests:</label><br>
+  <input type="checkbox" id="coding" name="interests[]" value="coding">
+  <label for="coding">Coding</label><br>
+  <input type="checkbox" id="reading" name="interests[]" value="reading">
+  <label for="reading">Reading</label><br>
+  <input type="checkbox" id="sports" name="interests[]" value="sports">
+  <label for="sports">Sports</label><br><br>
+
+  <!-- Submit Button -->
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
