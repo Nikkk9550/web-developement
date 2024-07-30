@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Form Example</title>
+</head>
+<body>
+
+<h2>Advanced Form Example</h2>
+
+<form action="/submit-your-form-handler" method="POST" enctype="multipart/form-data">
+
+  <!-- Combo Box (Select Dropdown) -->
+  <label for="country">Country:</label><br>
+  <select id="country" name="country">
+    <option value="usa">USA</option>
+    <option value="canada">Canada</option>
+    <option value="uk">UK</option>
+    <option value="australia">Australia</option>
+    <option value="japan">Japan</option>
+  </select><br><br>
+
+  <!-- Date Picker -->
+  <label for="birthday">Birthday:</label><br>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+  <!-- File Upload -->
+  <label for="avatar">Choose Avatar:</label><br>
+  <input type="file" id="avatar" name="avatar"><br><br>
+
+  <!-- Submit Button -->
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
