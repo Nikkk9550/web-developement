@@ -1,0 +1,53 @@
+<!-- Sample HTML Page -->
+
+<!-- Header Section -->
+<header>
+  <h1>Welcome to My Sample HTML Page</h1>
+  <h2>This is a subtitle</h2>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Main Content Section -->
+<div class="main-content">
+  <!-- Paragraphs -->
+  <p>This is a sample paragraph with some text.</p>
+  <p>This is another paragraph with some more text.</p>
+
+  <!-- Alignments -->
+  <p style="text-align: center;">This text is centered.</p>
+  <p style="text-align: right;">This text is right-aligned.</p>
+
+  <!-- Divisions -->
+  <div class="division">
+    <h3>This is a division with a heading</h3>
+    <p>This is some text within the division.</p>
+  </div>
+
+  <!-- Lists -->
+  <h3>Ordered List:</h3>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+
+  <h3>Unordered List:</h3>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</div>
+
+<!-- Footer Section -->
+<footer>
+  <p>&copy; 2023 My Sample HTML Page</p>
+</footer>
